@@ -1,12 +1,11 @@
-fndef LIST_H
-#define LIST_H
-#include<stdlib.h>
-#include<stdio.h>
-#include<string.h>
+#ifndef LISTS_H
+#define LISTS_H
+
+#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
- * @n: int value stored
+ * @n: integer
  * @next: points to the next node
  *
  * Description: singly linked list node structure
@@ -22,4 +21,4 @@ listint_t *add_nodeint(listint_t **head, const int n);
 void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 
-#endif
+#endif /* LISTS_H */
