@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 if __name__ == "__main__":
     from sys import argv
     lenOfArg = len(argv)
@@ -12,4 +12,4 @@ if __name__ == "__main__":
     for index, var in enumerate(argv):
         if index == 0:
             continue
-        print("{}: {}".format(index, var))	
+        print("{}: {}".format(index, var))
